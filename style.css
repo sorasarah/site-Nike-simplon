@@ -1,0 +1,270 @@
+/* *************Général************* */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 120px;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(90deg, #3E4044 0%, #28292F 100%);
+    color: #ffffff;
+}
+section{       
+    /* height: 900px; */
+    border-bottom: 5px solid #89FFFD;
+}
+h1 {
+    background: -webkit-linear-gradient(90deg, #EF32D9 3.71%, #89FFFD 94.07%);
+    -webkit-background-clip: text;-webkit-text-fill-color: transparent;font-size: 72px;
+    line-height: 88px;
+    margin-top: 10px;
+    
+}
+h2 {
+    font-weight: 800;
+    /* font-size: 41px; */
+    line-height: 50px;
+    width: 514px;
+    height: 51px;
+}
+/* ************header************ */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+header a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 30px;
+    color: #ffffff;
+}
+/* *************Accueil************* */
+
+#accueil {
+    /* margin: 0 120px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#accueil article h1 {
+    font-weight: 800;
+    font-size: 161px;
+    line-height: 196px;
+}
+#accueil article .nikeplus .premier {
+    font-weight: 800;
+    font-size: 41px;
+    line-height: 50px;
+}
+#accueil article h2 {
+    font-weight: 300;
+}
+#accueil article p {
+    font-size: 24px;
+    line-height: 29px;
+    width: 433px;
+    height: 84px;
+    margin: 20px 0;
+    
+}
+#accueil article input {
+    background: #EF32D9;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    width: 172px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+}
+.home {
+    /* height: 300px; */
+    padding-right: 50px;
+    height: 650px;
+}
+.home .chaussure {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -620px;
+    right: -350px;
+}
+.home .shoe {
+    position: relative;
+    top: -480px;
+    right: -150px;
+}
+.chaussure div {
+    width: 121.29px;
+    height: 121.29px;
+    margin-right: 4px;
+    background: radial-gradient(50% 50% at 50% 50%, #44464B 0%, #28292F 100%);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+.chaussure div img {
+    position: relative;
+    top: 20px;
+}
+.reseau {
+    height: 20%;
+    position: relative;
+    top: -100px;
+    font-size: 20px;
+}
+.reseau div {
+    margin: 20px 0;
+}
+
+/* ************Nouveautés************ */
+.tenue {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tenue div {
+    background-color: red;
+    margin: 70px 50px;
+    width: 214px;
+    height: 443px;
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #36383C 100%);    
+}
+/* .tenue div img {
+    width: 80%;
+} */
+.tenue p {
+    width: 300px;
+    font-size: 20px;
+    line-height: 49px;
+}
+.tenue .homme1 p {
+    position: relative;
+    left: -50px;
+    bottom: 50px;
+}
+.tenue .homme2 p {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+}
+.tenue .homme3 p {
+    position: relative;
+    right: -100px;
+    bottom: 50px;
+}
+.tenue p span {
+    font-weight: 600;
+    font-size: 30px;
+    color: linear-gradient(116.51deg, #EF32D9 3.71%, #89FFFD 94.07%);
+}
+
+/* ************sportswear************ */
+#sportswear {
+    height: 650px;
+}
+#sportswear article {
+    width: 455px;
+    height: 375px;
+    color: #E4E4E2;
+    background: #3B3D41;
+    padding: 16px;
+    position: relative;
+    top: -467px;
+    left: 90px;
+}
+.femme img {
+    width: 937px;
+    height: 462px;
+    margin: 60px 0px 0px 90px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+}
+#sportswear article h2 {
+    font-weight: 800;
+    font-size: 31px;
+    line-height: 38px;
+    width: 391px;
+    height: 36px;
+    margin-bottom: 17px;
+}
+#sportswear article h2 .sport {
+    color: #EF32D9;
+    font-weight: 300;
+    font-size: 31px;
+}
+#sportswear article p {
+    width: 370px;
+    height: 171px;
+    font-size: 18px;
+    line-height: 22px;
+}
+#sportswear article .voir {
+    position: relative;
+    left: -50px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 50px;
+    height: 35px;
+    line-height: 29px;
+    margin: 60px;
+    background: none;
+    border-bottom: 5px solid #EF32D9;
+}
+
+/**************** INFOS*************** */
+
+#general {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+}
+#general .info,span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+#general .aide , .apropos {    
+    font-weight: 300;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.2);
+}
+/* **************footer************** */
+#pieds {
+    height: 50px;
+    margin: 25px 0px;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+#pieds .sociaux {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#pieds .sociaux div {
+    margin-right: 50px;
+    font-size: 20px;
+} 
